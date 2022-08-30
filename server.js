@@ -147,8 +147,8 @@ app.get('/search/:text', (req, res) => {
 // }
 // }
 
-// Using DocumentDB
 
+// Using DocumentDB
 function mongoConnect() {
     return new Promise((resolve, reject) => {
     var mongoURL = process.env.MONGO_URL || 'mongodb://username:password@roboshop-dev.cluster-ciqb6xvrbz0q.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false';
