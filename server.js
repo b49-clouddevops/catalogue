@@ -147,7 +147,7 @@ app.get('/search/:text', (req, res) => {
 // set up Mongo : use this only for docdb mongo : for local mongo usage comment this
 function mongoConnect() {
     return new Promise((resolve, reject) => {
-    var mongoURL = process.env.MONGO_URL || 'mongodb://username:password@mongodb:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false';
+    var mongoURL = process.env.MONGO_URL || 'mongodb://username:password@mongodb:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false'
     var client = mongoClient.connect(mongoURL,
       {
         // Mutable & Immutable
