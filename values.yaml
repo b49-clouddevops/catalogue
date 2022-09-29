@@ -1,5 +1,6 @@
-componentName: catalogue
-componentVersion: 7.0.0
+appPortNumber: 8080
+appName: frontend 
+
 
 replicaCount: 1
 
