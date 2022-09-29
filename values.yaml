@@ -1,5 +1,5 @@
 appPortNumber: 8080
-appName: frontend 
+appName: catalogue 
 
 
 replicaCount: 1
